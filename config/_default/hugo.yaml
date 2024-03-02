@@ -1,0 +1,26 @@
+baseURL: https://thezyx.github.io/
+title: zyx
+enableRobotsTXT: true
+enableGitInfo: true
+hasCJKLanguage: true
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  ko:
+    languageName: 한국어
+    weight: 2
+menus:
+  main:
+    - name: posts
+      url: /posts/
+      identifier: posts
+params:
+  author:
+    name: Injun Song
+    email: ijsong@gmail.com
+  logo: /assets/favicon.ico
+paginate: 3
+#theme: hugo-theme-console
+theme: maverick
