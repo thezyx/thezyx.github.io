@@ -21,6 +21,9 @@ params:
     name: Injun Song
     email: ijsong@gmail.com
   logo: /assets/favicon.ico
+  comments:
+    githubRepo: thezyx/thezyx.github.io
+    theme: github-light
 paginate: 3
 #theme: hugo-theme-console
 theme: maverick
